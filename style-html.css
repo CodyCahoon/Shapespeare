@@ -1,0 +1,123 @@
+*, body, html{
+	margin:0px;
+	padding:0px;
+	font-family:'Open Sans';
+}
+nav{
+	height:40px;
+	border-bottom: 1px solid black;
+	background-color:#ffd200;
+}
+
+#title{
+	text-align:left;
+	color:black;
+	font-size:28px;
+	padding-left:5px;
+}
+
+ul{
+	list-style:none;
+}
+
+li{
+	float:left;
+}
+
+input[type=radio]:hover, label{
+	cursor:pointer;
+}
+
+input[type=radio]{
+	display:none;
+}
+
+input[type=radio]:checked + label{
+	color:red;
+}
+
+iframe{
+	position:absolute;
+	top:150px;
+	left:5%;
+	border:1px solid black;	
+	height:75%;
+	width:70%;
+}
+
+li img{
+	width:60px;
+	height:60px;
+	margin-left:5px;
+}
+
+#yoda, #sensor, #hp, #celeb{
+	border:2px solid black;
+	border-radius:5px;
+}
+
+#yoda:hover, #sensor:hover, #hp:hover, #celeb:hover{
+	cursor:pointer;
+}
+
+#story-selection{
+	overflow-x:none;
+	overflow-y:scroll;
+	width:100%;
+	height:100%;
+}
+
+#selector{
+	position:absolute;
+	top:41px;
+	right:1px;
+	width:22.4%;
+	height:93.5%;
+	border-left:1px solid black;
+}
+
+#images{
+	position:absolute;
+	top:75px;
+	left:5%;
+	height:80%;
+	width:70%;
+}
+
+#selector li:hover{
+	cursor:pointer;
+	background-color:#a6a6a6;
+}
+
+#selector li{
+	padding:5px;
+	width:94%;
+}
+
+#search-bar{
+	width:27%;
+	position:absolute;
+	right:0px;
+	top:5px;
+}
+
+#search-bar input{
+	height:28px;
+	width:80%;
+	margin-left:5px;
+}
+
+#loading{
+	display:none;
+	position:absolute;
+	width:45%;
+	height:20%;
+	top:35%;
+	left:17.5%;
+	background:rgba(0, 0, 0, 0.1);
+	border:1px solid black;
+	text-align:center;
+	color:white;
+	font-size:28px;
+	padding-top:6%;
+}
